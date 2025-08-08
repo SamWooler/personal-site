@@ -14,7 +14,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Sam Wooler | Software Engineer - Coming Soon",
-  description: "Welcome to my personal website! This will let you know what I'm all about.",
+  description:
+    "Welcome to my personal website! This will let you know what I'm all about.",
 };
 
 export default function RootLayout({

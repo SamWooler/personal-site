@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --moody-theme-1: #F6F7F9;
-  --moody-theme-2: #E5E9F0;
-  --moody-theme-3: #D8DEE9;
-  --moody-theme-4: #B9C4D0;
-  --moody-theme-5: #8896A5;
-  --moody-theme-6: #5E6B75;
+  --moody-theme-1: #f6f7f9;
+  --moody-theme-2: #e5e9f0;
+  --moody-theme-3: #d8dee9;
+  --moody-theme-4: #b9c4d0;
+  --moody-theme-5: #8896a5;
+  --moody-theme-6: #5e6b75;
 }
 
 @theme inline {
@@ -16,12 +16,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --moody-theme-1: #1A1B26;
-    --moody-theme-2: #2E3440;
-    --moody-theme-3: #3B4252;
-    --moody-theme-4: #4C566A;
-    --moody-theme-5: #7B8794;
-    --moody-theme-6: #A3B1C6;
+    --moody-theme-1: #1a1b26;
+    --moody-theme-2: #2e3440;
+    --moody-theme-3: #3b4252;
+    --moody-theme-4: #4c566a;
+    --moody-theme-5: #7b8794;
+    --moody-theme-6: #a3b1c6;
   }
 }
 
@@ -39,7 +39,15 @@
 
 body {
   animation: gradient 10s linear infinite;
-  background: linear-gradient(-45deg, var(--moody-theme-1), var(--moody-theme-2), var(--moody-theme-3), var(--moody-theme-4), var(--moody-theme-5), var(--moody-theme-6));
+  background: linear-gradient(
+    -45deg,
+    var(--moody-theme-1),
+    var(--moody-theme-2),
+    var(--moody-theme-3),
+    var(--moody-theme-4),
+    var(--moody-theme-5),
+    var(--moody-theme-6)
+  );
   background-size: 400%;
   font-family: Arial, Helvetica, sans-serif;
 }
