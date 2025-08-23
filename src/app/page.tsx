@@ -10,7 +10,7 @@ export default function Home() {
         justifyContent: "center",
       }}
     >
-      <Paper p="xl" radius="md" shadow="sm">
+      <Paper p="xl" radius="md" shadow="sm" style={{ textAlign: "center" }}>
         <Title>Coming soon!</Title>
       </Paper>
     </Container>
