@@ -1,5 +1,3 @@
-@import "tailwindcss";
-
 :root {
   --moody-theme-1: #f6f7f9;
   --moody-theme-2: #e5e9f0;
@@ -7,11 +5,6 @@
   --moody-theme-4: #b9c4d0;
   --moody-theme-5: #8896a5;
   --moody-theme-6: #5e6b75;
-}
-
-@theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 }
 
 @media (prefers-color-scheme: dark) {
